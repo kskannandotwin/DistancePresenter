@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { faLocationDot, faArrowRightLong, faCarSide } from '@fortawesome/free-solid-svg-icons';
+import { faLocationDot, faArrowRightLong, faCarSide, faClock } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-root',
@@ -8,7 +8,9 @@ import { faLocationDot, faArrowRightLong, faCarSide } from '@fortawesome/free-so
 })
 export class AppComponent {
   title = 'DistancePresenter';
+
   faLocationDot = faLocationDot;
   faArrowRightLong = faArrowRightLong;
   faCarSide = faCarSide;
+  faClock = faClock;
 }
