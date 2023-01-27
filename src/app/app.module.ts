@@ -1,9 +1,10 @@
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { IconDirective } from './icon.directive';
+import { IconDirective } from './directives/icon.directive';
 
 @NgModule({
   declarations: [
@@ -12,6 +13,7 @@ import { IconDirective } from './icon.directive';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule
   ],
   providers: [],
